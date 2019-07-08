@@ -1,0 +1,23 @@
+.sidebar {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 500;
+  width: 300px;
+
+  @media (max-width: 1000px) {
+    width: 250px;
+  }
+
+  @media (max-width: 800px) {
+    width: 100%;
+    bottom: auto;
+    height: 80px;
+    z-index: 99999;
+  }
+
+  @import "sidebar_info.less";
+  @import "navigation.less";
+}

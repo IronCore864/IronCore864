@@ -1,0 +1,85 @@
+.sidebar_info {
+  background: #fff;
+  width: 100%;
+  height: 196px;
+  border-bottom: 1px solid #eceded;
+  overflow: hidden;
+  position: relative;
+
+  @media (max-width: 800px) {
+    height: 80px;
+  }
+
+  .logo {
+    display: block;
+    position: relative;
+    margin: 20px auto 0;
+    width: 72px;
+    height: 72px;
+    background: url(../img/logo.jpg) no-repeat;
+    background-size: contain;
+    width: 72px;
+    height: 72px;
+
+    @media (max-width: 800px) {
+      background: url(../img/logo.jpg) no-repeat;
+      background-size: contain;
+      margin: 8px 12px;
+      float: left;
+      width: 60px;
+      height: 60px;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      @media (max-width: 800px) {
+        display: none;
+      }
+    }
+  }
+
+  .sidebar_overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 109px;
+    
+    @media (max-width: 800px) {
+      height: auto;
+      position: static;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 450px) {
+      justify-content: flex-end;
+    }
+
+    .sidebar_title {
+      position: relative;
+      text-align: center;
+      font-size: 14px;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      @media (max-width: 800px) {
+        display: none;
+      }
+    }
+
+    .sidebar_title_mobile {
+      @media (min-width: 800px) {
+        display: none;
+      }
+
+      @media (max-width: 450px) {
+        display: none;
+      }
+    }
+    @import "social.less";
+  }
+}
