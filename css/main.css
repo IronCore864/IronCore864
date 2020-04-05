@@ -206,14 +206,9 @@ body {
 .container .content li {
   font-size: 16px;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .container .content li {
     font-size: 14px;
-  }
-}
-@media (max-width: 800px) {
-  .container .content li {
-    font-size: 12px;
   }
 }
 .container .content h2 {
@@ -225,7 +220,7 @@ body {
   font-weight: bold;
   color: #274287;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .container .content h2 {
     font-size: 16px;
   }
@@ -241,13 +236,8 @@ body {
   padding-left: 30px;
   font-size: 16px;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .container .content p {
     font-size: 14px;
-  }
-}
-@media (max-width: 800px) {
-  .container .content p {
-    font-size: 12px;
   }
 }
