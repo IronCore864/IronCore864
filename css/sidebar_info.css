@@ -1,0 +1,74 @@
+.sidebar_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eceded;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .sidebar_info {
+    height: 80px;
+    padding: 0;
+    flex-direction: row;
+    justify-content: start;
+  }
+}
+.sidebar_info .logo {
+  margin: 0px auto 0;
+  width: 72px;
+  height: 72px;
+  background: url(../img/logo.jpg) no-repeat;
+  background-size: contain;
+}
+@media (max-width: 800px) {
+  .sidebar_info .logo {
+    margin: 10px 12px;
+    width: 60px;
+    height: 60px;
+  }
+}
+.sidebar_info .sidebar_overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .sidebar_info .sidebar_overlay {
+    flex-direction: row;
+  }
+}
+.sidebar_info .sidebar_overlay .sidebar_title {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+@media (max-width: 800px) {
+  .sidebar_info .sidebar_overlay .sidebar_title {
+    display: none;
+  }
+}
+.sidebar_info .sidebar_overlay ul.social {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .sidebar_info .sidebar_overlay ul.social {
+    position: static;
+    transform: none;
+  }
+}
+.sidebar_info .sidebar_overlay ul.social li.social_item {
+  display: inline;
+}
+.sidebar_info .sidebar_overlay ul.social li.social_item a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+.sidebar_info .sidebar_overlay ul.social li.social_item a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}

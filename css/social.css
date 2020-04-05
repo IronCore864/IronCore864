@@ -1,0 +1,21 @@
+ul.social {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  ul.social {
+    position: static;
+    transform: none;
+  }
+}
+ul.social li.social_item {
+  display: inline;
+}
+ul.social li.social_item a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+ul.social li.social_item a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}

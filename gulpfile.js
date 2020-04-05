@@ -1,12 +1,15 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
+const { src, dest, watch, series } = require('gulp');
+const less = require('gulp-less');
 
-gulp.task('watch-less',function(){
-    gulp.watch(['src/less/*.less'], ['less']);
-});
+function buildTask(cb) {
+  src('src/less/*.less').pipe(less()).pipe(dest('css'));
+  cb();
+}
 
-gulp.task('less', function () {
-    return gulp.src('src/less/main.less')
-        .pipe(less())
-        .pipe(gulp.dest('css'));
-});
+function watchTask(cb) {
+    watch('src/less/*.less', series([buildTask]))
+    cb();
+}
+
+exports.watch = watchTask;
+exports.default = buildTask;

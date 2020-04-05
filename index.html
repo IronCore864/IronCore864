@@ -13,7 +13,7 @@
   <aside class="sidebar">
     <div class="sidebar_info">
       <a href="/" class="logo">
-        <canvas width="72" height="72" style="width: 72px; height: 72px;"></canvas>
+        <!-- <canvas></canvas> -->
       </a>
       <div class="sidebar_overlay ">
         <span class="sidebar_title">Tiexin Guo</span>
@@ -75,69 +75,79 @@
   <section class="container">
     <img class="git_contrib" src="https://ghchart.rshah.org/ironcore864">
     <div class="content" id="personal">
-      <h2>Personal Info</h2>
+      <h1>Personal Info</h1>
       <ul>
         <li>Munich, Germany</li>
         <li><a href="mailto:guotiexin@gmail.com">guotiexin@gmail.com</a></li>
       </ul>
     </div>
-    <h3 class="intro">Tsinghua University CS graduate, 12 years working experience in software engineering, 6 years as team/tech lead role, ex-Baidu architecture team engineer, comprehensive experience in backend / frontend / full stack /automated testing in both best IT corporations as well as good startups, very good with agile, currently working as a Senior SRE at Allianz Global Digital Factory.
-Cofounder, CTO of MSER LLC; active presenter in k8s/DevOps meetups.</h3>
+    <h2 class="intro">Tsinghua University CS graduate, 12 years working experience in total, 7 years as team/tech lead role, ex-Baidu architecture team engineer, comprehensive experience in backend / frontend / full stack /automated testing in both best IT corporations as well as good startups, very good with agile, currently working as a Senior SRE at Allianz Global Digital Factory.</h2>
+    <h2 class="intro">Cofounder, CTO of MSER LLC; technical consultant for Seirobotics; active presenter in k8s/DevOps meetups.</h2>
 
     <div class="content" id="work">
-      <h2>Full-time Working Experience</h2>
-      <h3>Allianz Global Digital Factory, Senior SRE, 2019 - now, Germany</h3>
-      <p>Design, implement, deploy, monitor the whole infrastructure for a new Allianz product; delivered within 3 months under pressure with a tight deadline; released in 2 countries (later another 2); managing over 100 deployments per week with a micro service architecture (more than 30 micro services); refactored Terraform code to reduce duplication and improve ease of maintenance; refactored helm charts to reduce duplicated code from 6k lines to 2k lines; refactored the whole way of frontend deployment using CloudFront and Lambda@Edge (AWS, Terraform, Kubernetes, OpenShift, Helm, Jenkins, Java, Prometheus, Grafana, ELK, Node.js, Python3, Golang)</p>
+      <h1>Full-time Working Experience</h1>
+      <h2>Allianz Global Digital Factory, Senior SRE, 2019 - now, Germany</h2>
+      <p>Design, architect, implement, deploy and monitor the whole infrastructure for allianz-direct, serving millions of users in 4 countries in EU, still expanding.</p>
+      <p>Lead the k8s as a service project, making all architectural decisions and contributing 90% of the implementation, providing k8s as a service to more than 500 customers internally globally.</p>
+      <p>(AWS, Terraform, k8s, OpenShift, Helm, Jenkins, Golang, Python3, Prometheus, Grafana, ELK)</p>
 
-      <h3>KI labs GmbH, Senior Cloud Engineer, 2018 - 2019, Germany</h3>
-      <p>Joined as the first DevOps, reviewed and interviewed more than 200 candidates, recruited 2 more cloud engineers; lead the team, pair, code review, career path setup, one-on-one talks; coached frontend/backend/data scientist/cloud team about DevOps culture; lead the engineering committee to improve process.</p>
-      <p>At the same time, more than 70% time hands-on working on multiple projects in parallel; did presales together with CEO; designed whole infrastructure from scratch; implemented IaC in every project; provided solutions and products for large German companies like LANXESS, DHL, Mercedes, AMG; delivered 5 projects under pressure and tight deadline, all went live successfully. (AWS, Azure, GCP, on-premise, Terraform, Kubernetes, Jenkins, GoCD, Prometheus, Grafana, ELK, Python3, Node.js)</p>
+      <h2>KI labs GmbH, Senior Cloud Engineer, 2018 - 2019, Germany</h2>
+      <p>Joined as the first cloud engineer, reviewed and interviewed more than 200 candidates, recruited
+        many engineers not limited to cloud; lead the team and the engineering committee; pair, code
+        review, career path setup, one-on-one talks; coached frontend/backend/data scientist/cloud
+        team about DevOps culture.</p>
+      <p>Hands-on in multiple projects in parallel, pre-sales to high level executives; design, architect,
+        implement every single project from scratch, 100% in the cloud with IaC automation, for large
+        German corporations in all business fields (clients include DHL, Mercedes, AMG, Lanxess,
+        Lufthansa, Apobank, etc).</p>
+      <p>(AWS, Azure, GCP, Terraform, k8s, Jenkins, GoCD, Prometheus, Grafana, ELK, Golang, Python3)</p>
 
-      <h3>MYJAR, Senior Site Reliability Engineer, 2017 – 2018, Estonia</h3>
+      <h2>MYJAR, Senior Site Reliability Engineer, 2017 – 2018, Estonia</h2>
       <p>Migrated whole infrastructure from on-premise datacenter to AWS; separated around 10 micro services out of the old monolithic core; single-handedly rewrote our microservice deployment code, improved code maintenance and deployment time/complexity; migrated from VM to containerized solutions. (on-premise VMs, AWS, Terraform, Jenkins, Elastic Beanstalk, Elastic Container Service, Kubernetes, Prometheus, Grafana, ELK, PHP, Node.js)</p>
 
-      <h3>Kühne + Nagel, DevOps Engineer, EDI Specialist, 2016 – 2017, Estonia</h3>
-      <p>Worked as a DevOps in EDI team; transformed the waterfall team into agile/Kanban team; introduced Ansible with best practice to not only our team, but also other team in another country; coached several teams to do test-driven infrastructure development; implemented CI system and did Git-Jenkins integration from scratch; created monitoring tools. (Ansible, testkitchen, serverspec, docker, Jenkins, Python3, Node.js, Angular, React, Redux)</p>
+      <h2>Kühne + Nagel, DevOps Engineer, EDI Specialist, 2016 – 2017, Estonia</h2>
+      <p>Worked as a DevOps in EDI team; transformed the waterfall team into agile/Kanban team; introduced Ansible with best practice to not only our team, but also other team in another country; coached several teams to do test-driven infrastructure development; implemented CI system and did Git-Jenkins integration from scratch; created monitoring tools. (Ansible, testkitchen, serverspec, docker, Jenkins, Python3, Node.js, Angular, React, Redux)      </p>
 
-      <h3>App Annie, Full Stack Engineer, Staff, 2015 - 2016, China</h3>
+      <h2>App Annie, Full Stack Engineer, Staff, 2015 - 2016, China</h2>
       <p>Staff level engineer, onboarded and mentored new junior members; improved agile process, shorter meetings and more successful sprints; full stack dev on new features, deployed once a week; test automation, including unit test, functional test, smoke test. (AWS, Python, Django, celery, scrappy, Angular, Jenkins)</p>
 
-      <h3>Oracle, Senior Member of Technical Staff, 2013 – 2015, China</h3>
+      <h2>Oracle, Senior Member of Technical Staff, 2013 – 2015, China</h2>
       <p>Worked in the Identity Management team at Oracle Asia Research and Development Center; did tech interview and hiring; coached 4 junior teammates; cooperated with remote colleagues in India/US to design, develop and test our toolchain for CI, automation, eliminated human intervention, improved deployment speed. (Perl, Java, Python, Bash)</p>
 
-      <h3>Baidu Inc, Developing and Testing Engineer, 2010 – 2013, China</h3>
+      <h2>Baidu Inc, Developing and Testing Engineer, 2010 – 2013, China</h2>
       <p>Joined in the largest search engine company in China as the 3rd member in the architecture team, grew with the team together to 50 people and 30 services, some of which got over 1 billion requests per day; co-designed, tested a highly available microservice (back then this term wasn’t even created yet) architecture written in PHP and C with open source tools to support load balancing, auto failover, traffic routing capabilities, including crucial services, like non-blocking message queue, storage, database, in-memory cache, etc.; serving more than 10 internal vertical product teams; implemented everything from scratch. (PHP, C, on-premise multi failover data center, Zookeeper, Redis, Memcached, MySQL, Hudson/Jenkins)</p>
 
-      <h3>SINOSURE, Software Engineer, Product Owner, 2008 – 2010, China</h3>
+      <h2>SINOSURE, Software Engineer, Product Owner, 2008 – 2010, China</h2>
       <p>Started my professional career as a full stack developer; developed both websites as well as backend for our online business platform; serving more than 1k+ internal employees as well as countless external businesses/clients/corporations; product owner for digital signature system and online sales platform; designed from scratch, including choosing cert providers and the implementation of it). (J2EE, JavaScript, on-premise data center)</p>
     </div>
 
     <div class="content" id="parttime">
-      <h2>Advisory</h2>
-      <h3>MSER LLC, Chief Technology Officer, 2019 - now</h3>
-      <h3>MSER LLC, Technology Partner, Cofounder, 2016 - 2019</h3>
+      <h1>Advisory</h1>
+      <h2>Seirobotics, Technical Consultant, 2020 - now</h2>
+      <h2>MSER LLC, Chief Technology Officer, 2019 - now</h2>
+      <h2>MSER LLC, Technology Partner, Cofounder, 2016 - 2019</h2>
       <p>Cofounded (remotely) MSER LLC (based in Shanghai, China) with a couple of my friends which specializes on blockchain currency online trading. Provided remote tech help and did hiring. Now the company has more than 20 people and provides service to multiple countries mainly in the south-east Asia market. Right now I don’t spend time working for this company anymore, but still have this title.</p>
     </div>
 
     <div class="content" id="intern">
-      <h2>Internship</h2>
+      <h1>Internship</h1>
 
-      <h3>Tsinghua University, Multimedia Group, Fingerprint Recognition, 2007</h3>
+      <h2>Tsinghua University, Multimedia Group, Fingerprint Recognition, 2007</h2>
       <p>Improved a fingerprint recognition algorithm in C both performance and accuracy wise.</p>
 
-      <h3>Sogou Inc, Search Engine for Literature, 2007</h3>
+      <h2>Sogou Inc, Search Engine for Literature, 2007</h2>
       <p>Implemented a search engine for literature from scratch, including crawler, indexing, storage, parser, query, and UI, which later used by Sogou Inc to improve its existing product.</p>
     </div>
 
     <div class="content" id="edu">
-      <h2>Education</h2>
-      <h3>Tsinghua University, Bachelor of Engineering, 2004-2008</h3>
+      <h1>Education</h1>
+      <h2>Tsinghua University, Bachelor of Engineering, 2004-2008</h2>
       <p>Majored in computer science and technology; got recommended to continue my master’s study without any exam or tuition because of my superior performance; however, I gave it up and chose to start my professional career.</p>
       <p>For people who are not so familiar with Chinese universities: Tsinghua is the No.1 university in China, each year only 150 people have the luck to get in to major in CS. Its department of CS is also ranked No.1 worldwide by US News and World Report in 2019.</p>
     </div>
 
     <div class="content" id="certifications">
-      <h2>Certificates, Courses and Professional Trainings</h2>
+      <h1>Certificates, Courses and Professional Trainings</h1>
       <ul>
         <li>Machine Learning, by Stanford University, 2019</li>
         <li>AI For Everyone, by deeplearning.ai, 2019</li>
@@ -149,7 +159,7 @@ Cofounder, CTO of MSER LLC; active presenter in k8s/DevOps meetups.</h3>
     </div>
 
     <div class="content" id="awards">
-      <h2>Older Awards</h2>
+      <h1>Older Awards</h1>
       <ul>
         <li>Second prize in senior high mathematical Olympic competition</li>
         <li>Second prize in senior high chemistry Olympic competition</li>
@@ -161,21 +171,26 @@ Cofounder, CTO of MSER LLC; active presenter in k8s/DevOps meetups.</h3>
 
 
     <div class="content" id="projects">
-      <h2>Recent Personal Projects</h2>
+      <h1>Recent Personal Projects</h1>
       <ul>
+        <li><a href="https://github.com/IronCore864/tap" target='_blank'>Template Tool in Golang</a></li>
         <li><a href="https://github.com/IronCore864/actsctrl" target='_blank'>Anti-spam, action control in Golang (still working)</a></li>
+        <li>Amazon EU Price Compare, <a href="https://ironcore864.github.io/amazon-eu-price-compare" target='_blank'>Chrome plugin</a>, and <a href="https://ironcore864.github.io/amazon-eu-price-compare-ff" target='_blank'>Firefox plugin</a></li>
         <li><a href="https://github.com/hiddout" target='_blank'>Encrypted BBS forum in Node.js</a></li>
-        <li>Amazon EU Price Compare, <a href="https://ironcore864.github.io/amazon-eu-price-compare" target='_blank'>Chrome plugin</a>, and <a href="https://ironcore864.github.io/amazon-eu-price-compare-ff" target='_blank'>Firefox plugin</a>"</li>
-        <li><a href="https://github.com/IronCore864/duolingo-de" target='_blank'>Duolingo Vocabulary List Generator in Python</a></li>
-        <li><a href="https://github.com/IronCore864/git-pre-receive-hook-pep8-check" target='_blank'>PEP8 Check GitHub Enterprise Server Side Pre-receive Hook</a></li>
+        <li><a href="https://github.com/IronCore864?tab=repositories&q=tfm" target='_blank'>Terraform modules for CloudFront</a></li>
+        <li><a href="https://github.com/IronCore864?tab=repositories&q=lambda" target='_blank'>Lambda functions CloudFront</a></li>
         <li>See more on my <a href="https://github.com/IronCore864?tab=repositories" target='_blank'>GitHub page</a>.</li>
       <ul>
     </div>
 
     <div class="content" id="hobbies">
-      <h2>Hobbies</h2>
-      <p>I like sports. I used to train a lot in the gym, do Olympic distance triathlons and some road bike and mountain bike races, even finished one full marathon. Now I like riding mountain bikes and hiking in summer and skilling/snowboarding in winter. I do bike parks as well with my Canyon Spectral trail bike.</p>
-      <p>I like driving, both cars and motorcycle. I enjoy grand tours very much. In 2016 I did some tours in the Baltic countries, in 2017 I traveled across whole Italy, and Sweden, in 2018 I did a 9000 km tour all the way to north cape then back to Munich. 2019 I did a 5500 km tour from Munich to Scotland. And I’ve already been to the Nürburgring with my own car. I’m currently driving a BMW M2 Competition and I enjoy it a lot; sold my BMW S1000RR 2017 for a BMW C400X for easier city commute.</p>
+      <h1>Hobbies</h1>
+      <p>I like sports. I used to train a lot in the gym, do Olympic distance triathlons and some road bike and mountain bike races, even finished one full marathon.
+        Now I like riding mountain bikes and hiking in summer and skilling/snowboarding in winter.</p>
+      <p>I like driving, both cars and motorcycle. I enjoy grand tours very much.
+        In 2016 I did some tours in the Baltic countries, in 2017 I traveled across whole Italy, and Sweden, in 2018 I did a 9000 km tour all the way to north cape then back to Munich.
+        2019 I did a 5500 km tour from Munich to Scotland. And I’ve already been to the Nürburgring with my own car.
+        Just sold my BMW S1000RR 2017 for a BMW C400X for easier city commute; sold my BMW M2 Competition to get ready for my next new car which is Porsche Cayman GTS 4.0.</p>
     </div>
   </section>
 </body>
