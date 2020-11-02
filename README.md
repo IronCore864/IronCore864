@@ -1,2 +1,2 @@
-# https://ironcore864.github.io/cv
+# https://ironcore864.github.io/
 Resume
