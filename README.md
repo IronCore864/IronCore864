@@ -1,2 +1,3 @@
 # https://cv.guotiexin.com/
-Resume
+
+My online CV with Responsive Web Design.
